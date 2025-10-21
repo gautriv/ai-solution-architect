@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row g-3">
+  <div class="col-md-8">
+    <div class="card p-3">
+      <h3>Today: Day {{ today.day_number }} — {{ today.title }}</h3>
+      <p class="text-secondary">{{ today.season }} • Month {{ today.month_in_season }} • Week {{ today.week }}</p>
+      <h5>Actions (2h)</h5>
+      <ul>
+        {% for a in today.actions %}<li>{{ a }}</li>{% endfor %}
+      </ul>
+      {% if today.resources %}
+      <h5>Resources</h5>
+      <ul>
+        {% for r in today.resources %}<li><a href="{{ r }}" target="_blank">{{ r }}</a></li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if today.certificate %}<p><span class="badge bg-info">Certificate Track: {{ today.certificate }}</span></p>{% endif %}
+      {% if today.project %}<p><span class="badge bg-warning text-dark">Project: {{ today.project }}</span></p>{% endif %}
+      <a href="{{ url_for('day', day_number=today.day_number) }}" class="btn btn-primary">Open Day</a>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card p-3 mb-3">
+      <h5>Progress</h5>
+      <div>XP: <span class="badge badge-xp">{{ xp }}</span></div>
+      <div>Streak: <span class="streak">{{ streak }}</span> days</div>
+      <div class="mt-2">
+        <a href="{{ url_for('progress') }}" class="btn btn-outline-light btn-sm">View Progress</a>
+      </div>
+    </div>
+    <div class="card p-3">
+      <h5>Badges</h5>
+      {% if badges %}
+        {% for b in badges %}<span class="badge bg-success me-1 mb-1">{{ b }}</span>{% endfor %}
+      {% else %}
+        <p>No badges yet — earn XP by completing days.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock %}

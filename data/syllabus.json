@@ -1,0 +1,5933 @@
+{
+  "generated_at": "2025-10-21",
+  "days": [
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 1,
+      "day_in_week": 1,
+      "title": "Make.com setup: your command center",
+      "actions": [
+        "Create free account at Make.com",
+        "Watch 5-min 'Getting Started'",
+        "Create your first empty Scenario"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Open Make.com, click 'Create a new scenario'",
+      "xp": 10,
+      "day_number": 1
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 1,
+      "day_in_week": 2,
+      "title": "Gmail \u2192 Drive (watch)",
+      "actions": [
+        "Add Gmail module; connect account",
+        "Configure 'Watch emails' with subject: Invoice"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Rename the scenario.",
+      "xp": 10,
+      "day_number": 2
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 1,
+      "day_in_week": 3,
+      "title": "Gmail \u2192 Drive (act)",
+      "actions": [
+        "Add Google Drive module 'Upload a file'",
+        "Map Gmail attachment \u2192 Drive file",
+        "Send yourself a test email with attachment"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": "Project: Auto\u2011Archivist",
+      "warmup": "Send a test email.",
+      "xp": 10,
+      "day_number": 3
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 1,
+      "day_in_week": 4,
+      "title": "Filter practice",
+      "actions": [
+        "Add a Filter: only if sender includes 'amazon.com'",
+        "Re-test end-to-end"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Add a label to your Gmail test message.",
+      "xp": 10,
+      "day_number": 4
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 1,
+      "day_in_week": 5,
+      "title": "Twitter/X \u2192 Google Sheets (watch)",
+      "actions": [
+        "Create new scenario",
+        "Add X/Twitter module 'Watch Tweets'",
+        "Connect account"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": "Project: Social Scribe",
+      "warmup": "Create the target Google Sheet.",
+      "xp": 10,
+      "day_number": 5
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 1,
+      "day_in_week": 6,
+      "title": "Twitter/X \u2192 Google Sheets (act)",
+      "actions": [
+        "Add Google Sheets module 'Add a Row'",
+        "Map text + creation date",
+        "Activate it and post a tweet"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Add a new column 'URL' to the sheet.",
+      "xp": 10,
+      "day_number": 6
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 1,
+      "day_in_week": 7,
+      "title": "Extend to another network",
+      "actions": [
+        "Add a second source (e.g., YouTube/Reddit)",
+        "Map to the same sheet"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Color one completed row green.",
+      "xp": 10,
+      "day_number": 7
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 2,
+      "day_in_week": 1,
+      "title": "Smart Notifier \u2014 router",
+      "actions": [
+        "Create a Google Sheet with 'Task' and 'Priority'",
+        "Add Router with two paths"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": "Project: Smart Notifier",
+      "warmup": "Make two dummy rows.",
+      "xp": 10,
+      "day_number": 8
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 2,
+      "day_in_week": 2,
+      "title": "Urgent \u2192 Push",
+      "actions": [
+        "If Priority == URGENT \u2192 send push via Make mobile app"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Install Make mobile app.",
+      "xp": 10,
+      "day_number": 9
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 2,
+      "day_in_week": 3,
+      "title": "Normal \u2192 Email",
+      "actions": [
+        "If Priority == NORMAL \u2192 send email"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Write one URGENT and one NORMAL task.",
+      "xp": 10,
+      "day_number": 10
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 2,
+      "day_in_week": 4,
+      "title": "Edge cases & testing",
+      "actions": [
+        "Test empty cells",
+        "Test lowercase 'urgent'",
+        "Harden your filters"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Add data validation to the sheet.",
+      "xp": 10,
+      "day_number": 11
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 2,
+      "day_in_week": 5,
+      "title": "Public API \u2014 OpenWeather",
+      "actions": [
+        "Create API key on OpenWeatherMap",
+        "Read docs: Current Weather endpoint"
+      ],
+      "resources": [
+        "https://openweathermap.org/api"
+      ],
+      "certificate": null,
+      "project": "Project: Rain Warden",
+      "warmup": "Copy your API key to a safe note.",
+      "xp": 10,
+      "day_number": 12
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 2,
+      "day_in_week": 6,
+      "title": "HTTP module call",
+      "actions": [
+        "Use Make 'HTTP' module to GET current weather for your city",
+        "Capture JSON response"
+      ],
+      "resources": [
+        "https://www.make.com/en/help/app/http",
+        "https://openweathermap.org/api"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Add ?units=metric to your request.",
+      "xp": 10,
+      "day_number": 13
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 2,
+      "day_in_week": 7,
+      "title": "Rain filter + schedule",
+      "actions": [
+        "Parse JSON description",
+        "If includes 'rain' \u2192 send SMS/notification",
+        "Schedule daily 7:00 AM run"
+      ],
+      "resources": [
+        "https://www.make.com/en/help/app/http",
+        "https://openweathermap.org/api"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "Run once manually.",
+      "xp": 10,
+      "day_number": 14
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 3,
+      "day_in_week": 1,
+      "title": "Airtable + RSS Job Hunter: Airtable base: Job Hunter",
+      "actions": [
+        "Create base: Title, Company, URL, Status, Notes"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Job Hunter",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 15
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 3,
+      "day_in_week": 2,
+      "title": "Airtable + RSS Job Hunter: RSS feed watch",
+      "actions": [
+        "Find job board with RSS",
+        "Test in browser"
+      ],
+      "resources": [
+        "https://learning.postman.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 16
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 3,
+      "day_in_week": 3,
+      "title": "Airtable + RSS Job Hunter: Make scenario: RSS \u2192 Airtable",
+      "actions": [
+        "Parse entry",
+        "Create record in base"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 17
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 3,
+      "day_in_week": 4,
+      "title": "Airtable + RSS Job Hunter: Filters & dedupe",
+      "actions": [
+        "Avoid duplicates",
+        "Only include 'Automation Architect'"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 18
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 3,
+      "day_in_week": 5,
+      "title": "Airtable + RSS Job Hunter: Notifications",
+      "actions": [
+        "Send email/slack on new match"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 19
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 3,
+      "day_in_week": 6,
+      "title": "Airtable + RSS Job Hunter: Refactor fields",
+      "actions": [
+        "Add 'Applied' status + date"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 20
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 3,
+      "day_in_week": 7,
+      "title": "Airtable + RSS Job Hunter: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 21
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 4,
+      "day_in_week": 1,
+      "title": "Airtable + RSS Job Hunter: Airtable base: Job Hunter",
+      "actions": [
+        "Create base: Title, Company, URL, Status, Notes"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Job Hunter",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 22
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 4,
+      "day_in_week": 2,
+      "title": "Airtable + RSS Job Hunter: RSS feed watch",
+      "actions": [
+        "Find job board with RSS",
+        "Test in browser"
+      ],
+      "resources": [
+        "https://learning.postman.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 23
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 4,
+      "day_in_week": 3,
+      "title": "Airtable + RSS Job Hunter: Make scenario: RSS \u2192 Airtable",
+      "actions": [
+        "Parse entry",
+        "Create record in base"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 24
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 4,
+      "day_in_week": 4,
+      "title": "Airtable + RSS Job Hunter: Filters & dedupe",
+      "actions": [
+        "Avoid duplicates",
+        "Only include 'Automation Architect'"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 25
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 4,
+      "day_in_week": 5,
+      "title": "Airtable + RSS Job Hunter: Notifications",
+      "actions": [
+        "Send email/slack on new match"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 26
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 4,
+      "day_in_week": 6,
+      "title": "Airtable + RSS Job Hunter: Refactor fields",
+      "actions": [
+        "Add 'Applied' status + date"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 27
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 4,
+      "day_in_week": 7,
+      "title": "Airtable + RSS Job Hunter: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 28
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 5,
+      "day_in_week": 1,
+      "title": "Airtable + RSS Job Hunter: Airtable base: Job Hunter",
+      "actions": [
+        "Create base: Title, Company, URL, Status, Notes"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Job Hunter",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 29
+    },
+    {
+      "season": 1,
+      "month_in_season": 1,
+      "week": 5,
+      "day_in_week": 2,
+      "title": "Airtable + RSS Job Hunter: RSS feed watch",
+      "actions": [
+        "Find job board with RSS",
+        "Test in browser"
+      ],
+      "resources": [
+        "https://learning.postman.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 30
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 5,
+      "day_in_week": 3,
+      "title": "Airtable + RSS Job Hunter: Make scenario: RSS \u2192 Airtable",
+      "actions": [
+        "Parse entry",
+        "Create record in base"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 31
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 5,
+      "day_in_week": 4,
+      "title": "Airtable + RSS Job Hunter: Filters & dedupe",
+      "actions": [
+        "Avoid duplicates",
+        "Only include 'Automation Architect'"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 32
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 5,
+      "day_in_week": 5,
+      "title": "Airtable + RSS Job Hunter: Notifications",
+      "actions": [
+        "Send email/slack on new match"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 33
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 5,
+      "day_in_week": 6,
+      "title": "Airtable + RSS Job Hunter: Refactor fields",
+      "actions": [
+        "Add 'Applied' status + date"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 34
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 5,
+      "day_in_week": 7,
+      "title": "Airtable + RSS Job Hunter: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 35
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 6,
+      "day_in_week": 1,
+      "title": "Airtable + RSS Job Hunter: Airtable base: Job Hunter",
+      "actions": [
+        "Create base: Title, Company, URL, Status, Notes"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Job Hunter",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 36
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 6,
+      "day_in_week": 2,
+      "title": "Airtable + RSS Job Hunter: RSS feed watch",
+      "actions": [
+        "Find job board with RSS",
+        "Test in browser"
+      ],
+      "resources": [
+        "https://learning.postman.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 37
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 6,
+      "day_in_week": 3,
+      "title": "Airtable + RSS Job Hunter: Make scenario: RSS \u2192 Airtable",
+      "actions": [
+        "Parse entry",
+        "Create record in base"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 38
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 6,
+      "day_in_week": 4,
+      "title": "Airtable + RSS Job Hunter: Filters & dedupe",
+      "actions": [
+        "Avoid duplicates",
+        "Only include 'Automation Architect'"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 39
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 6,
+      "day_in_week": 5,
+      "title": "Airtable + RSS Job Hunter: Notifications",
+      "actions": [
+        "Send email/slack on new match"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 40
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 6,
+      "day_in_week": 6,
+      "title": "Airtable + RSS Job Hunter: Refactor fields",
+      "actions": [
+        "Add 'Applied' status + date"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 41
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 6,
+      "day_in_week": 7,
+      "title": "Airtable + RSS Job Hunter: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 42
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 7,
+      "day_in_week": 1,
+      "title": "Two-Table Project Hub: Projects & Tasks tables",
+      "actions": [
+        "Create both tables",
+        "Link tasks to projects"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Project Hub",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 43
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 7,
+      "day_in_week": 2,
+      "title": "Two-Table Project Hub: Form with Tally",
+      "actions": [
+        "Create form for new task"
+      ],
+      "resources": [
+        "https://tally.so/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 44
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 7,
+      "day_in_week": 3,
+      "title": "Two-Table Project Hub: Make: Tally \u2192 Airtable",
+      "actions": [
+        "Find project by name",
+        "Create linked task"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 45
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 7,
+      "day_in_week": 4,
+      "title": "Two-Table Project Hub: Edge cases",
+      "actions": [
+        "Missing project \u2192 create stub project"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 46
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 7,
+      "day_in_week": 5,
+      "title": "Two-Table Project Hub: Email summaries",
+      "actions": [
+        "Daily summary of new tasks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 47
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 7,
+      "day_in_week": 6,
+      "title": "Two-Table Project Hub: Polish & docs",
+      "actions": [
+        "Write short README in Airtable"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 48
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 7,
+      "day_in_week": 7,
+      "title": "Two-Table Project Hub: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 49
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 8,
+      "day_in_week": 1,
+      "title": "Two-Table Project Hub: Projects & Tasks tables",
+      "actions": [
+        "Create both tables",
+        "Link tasks to projects"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Project Hub",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 50
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 8,
+      "day_in_week": 2,
+      "title": "Two-Table Project Hub: Form with Tally",
+      "actions": [
+        "Create form for new task"
+      ],
+      "resources": [
+        "https://tally.so/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 51
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 8,
+      "day_in_week": 3,
+      "title": "Two-Table Project Hub: Make: Tally \u2192 Airtable",
+      "actions": [
+        "Find project by name",
+        "Create linked task"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 52
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 8,
+      "day_in_week": 4,
+      "title": "Two-Table Project Hub: Edge cases",
+      "actions": [
+        "Missing project \u2192 create stub project"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 53
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 8,
+      "day_in_week": 5,
+      "title": "Two-Table Project Hub: Email summaries",
+      "actions": [
+        "Daily summary of new tasks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 54
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 8,
+      "day_in_week": 6,
+      "title": "Two-Table Project Hub: Polish & docs",
+      "actions": [
+        "Write short README in Airtable"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 55
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 8,
+      "day_in_week": 7,
+      "title": "Two-Table Project Hub: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 56
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 9,
+      "day_in_week": 1,
+      "title": "Two-Table Project Hub: Projects & Tasks tables",
+      "actions": [
+        "Create both tables",
+        "Link tasks to projects"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Project Hub",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 57
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 9,
+      "day_in_week": 2,
+      "title": "Two-Table Project Hub: Form with Tally",
+      "actions": [
+        "Create form for new task"
+      ],
+      "resources": [
+        "https://tally.so/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 58
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 9,
+      "day_in_week": 3,
+      "title": "Two-Table Project Hub: Make: Tally \u2192 Airtable",
+      "actions": [
+        "Find project by name",
+        "Create linked task"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 59
+    },
+    {
+      "season": 1,
+      "month_in_season": 2,
+      "week": 9,
+      "day_in_week": 4,
+      "title": "Two-Table Project Hub: Edge cases",
+      "actions": [
+        "Missing project \u2192 create stub project"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 60
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 9,
+      "day_in_week": 5,
+      "title": "Two-Table Project Hub: Email summaries",
+      "actions": [
+        "Daily summary of new tasks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 61
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 9,
+      "day_in_week": 6,
+      "title": "Two-Table Project Hub: Polish & docs",
+      "actions": [
+        "Write short README in Airtable"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 62
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 9,
+      "day_in_week": 7,
+      "title": "Two-Table Project Hub: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 63
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 10,
+      "day_in_week": 1,
+      "title": "Two-Table Project Hub: Projects & Tasks tables",
+      "actions": [
+        "Create both tables",
+        "Link tasks to projects"
+      ],
+      "resources": [
+        "https://airtable.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Project Hub",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 64
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 10,
+      "day_in_week": 2,
+      "title": "Two-Table Project Hub: Form with Tally",
+      "actions": [
+        "Create form for new task"
+      ],
+      "resources": [
+        "https://tally.so/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 65
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 10,
+      "day_in_week": 3,
+      "title": "Two-Table Project Hub: Make: Tally \u2192 Airtable",
+      "actions": [
+        "Find project by name",
+        "Create linked task"
+      ],
+      "resources": [
+        "https://www.make.com/en/academy"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 66
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 10,
+      "day_in_week": 4,
+      "title": "Two-Table Project Hub: Edge cases",
+      "actions": [
+        "Missing project \u2192 create stub project"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 67
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 10,
+      "day_in_week": 5,
+      "title": "Two-Table Project Hub: Email summaries",
+      "actions": [
+        "Daily summary of new tasks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 68
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 10,
+      "day_in_week": 6,
+      "title": "Two-Table Project Hub: Polish & docs",
+      "actions": [
+        "Write short README in Airtable"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 69
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 10,
+      "day_in_week": 7,
+      "title": "Two-Table Project Hub: Weekly retro",
+      "actions": [
+        "Write 5-line reflection"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 70
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 11,
+      "day_in_week": 1,
+      "title": "Python-as-a-step (Replit): Replit setup",
+      "actions": [
+        "Create Python repl",
+        "Hello World"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Text Sanitizer",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 71
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 11,
+      "day_in_week": 2,
+      "title": "Python-as-a-step (Replit): Read JSON input",
+      "actions": [
+        "Accept payload"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 72
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 11,
+      "day_in_week": 3,
+      "title": "Python-as-a-step (Replit): Transform",
+      "actions": [
+        "Lowercase + strip"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 73
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 11,
+      "day_in_week": 4,
+      "title": "Python-as-a-step (Replit): Return JSON output",
+      "actions": [
+        "Return cleaned text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 74
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 11,
+      "day_in_week": 5,
+      "title": "Python-as-a-step (Replit): Make: Form \u2192 Replit \u2192 Doc",
+      "actions": [
+        "Google Form \u2192 HTTP \u2192 Replit \u2192 Google Doc"
+      ],
+      "resources": [
+        "https://www.make.com/en/help/app/http"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 75
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 11,
+      "day_in_week": 6,
+      "title": "Python-as-a-step (Replit): Harden",
+      "actions": [
+        "Handle empty text, long text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 76
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 11,
+      "day_in_week": 7,
+      "title": "Python-as-a-step (Replit): Weekly retro",
+      "actions": [
+        "Record learnings"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 77
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 12,
+      "day_in_week": 1,
+      "title": "Python-as-a-step (Replit): Replit setup",
+      "actions": [
+        "Create Python repl",
+        "Hello World"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Text Sanitizer",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 78
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 12,
+      "day_in_week": 2,
+      "title": "Python-as-a-step (Replit): Read JSON input",
+      "actions": [
+        "Accept payload"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 79
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 12,
+      "day_in_week": 3,
+      "title": "Python-as-a-step (Replit): Transform",
+      "actions": [
+        "Lowercase + strip"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 80
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 12,
+      "day_in_week": 4,
+      "title": "Python-as-a-step (Replit): Return JSON output",
+      "actions": [
+        "Return cleaned text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 81
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 12,
+      "day_in_week": 5,
+      "title": "Python-as-a-step (Replit): Make: Form \u2192 Replit \u2192 Doc",
+      "actions": [
+        "Google Form \u2192 HTTP \u2192 Replit \u2192 Google Doc"
+      ],
+      "resources": [
+        "https://www.make.com/en/help/app/http"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 82
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 12,
+      "day_in_week": 6,
+      "title": "Python-as-a-step (Replit): Harden",
+      "actions": [
+        "Handle empty text, long text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 83
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 12,
+      "day_in_week": 7,
+      "title": "Python-as-a-step (Replit): Weekly retro",
+      "actions": [
+        "Record learnings"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 84
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 13,
+      "day_in_week": 1,
+      "title": "Python-as-a-step (Replit): Replit setup",
+      "actions": [
+        "Create Python repl",
+        "Hello World"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Text Sanitizer",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 85
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 13,
+      "day_in_week": 2,
+      "title": "Python-as-a-step (Replit): Read JSON input",
+      "actions": [
+        "Accept payload"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 86
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 13,
+      "day_in_week": 3,
+      "title": "Python-as-a-step (Replit): Transform",
+      "actions": [
+        "Lowercase + strip"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 87
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 13,
+      "day_in_week": 4,
+      "title": "Python-as-a-step (Replit): Return JSON output",
+      "actions": [
+        "Return cleaned text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 88
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 13,
+      "day_in_week": 5,
+      "title": "Python-as-a-step (Replit): Make: Form \u2192 Replit \u2192 Doc",
+      "actions": [
+        "Google Form \u2192 HTTP \u2192 Replit \u2192 Google Doc"
+      ],
+      "resources": [
+        "https://www.make.com/en/help/app/http"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 89
+    },
+    {
+      "season": 1,
+      "month_in_season": 3,
+      "week": 13,
+      "day_in_week": 6,
+      "title": "Python-as-a-step (Replit): Harden",
+      "actions": [
+        "Handle empty text, long text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 90
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 13,
+      "day_in_week": 7,
+      "title": "Python-as-a-step (Replit): Weekly retro",
+      "actions": [
+        "Record learnings"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 91
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 14,
+      "day_in_week": 1,
+      "title": "Python-as-a-step (Replit): Replit setup",
+      "actions": [
+        "Create Python repl",
+        "Hello World"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": "Project: Text Sanitizer",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 92
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 14,
+      "day_in_week": 2,
+      "title": "Python-as-a-step (Replit): Read JSON input",
+      "actions": [
+        "Accept payload"
+      ],
+      "resources": [
+        "https://replit.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 93
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 14,
+      "day_in_week": 3,
+      "title": "Python-as-a-step (Replit): Transform",
+      "actions": [
+        "Lowercase + strip"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 94
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 14,
+      "day_in_week": 4,
+      "title": "Python-as-a-step (Replit): Return JSON output",
+      "actions": [
+        "Return cleaned text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 95
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 14,
+      "day_in_week": 5,
+      "title": "Python-as-a-step (Replit): Make: Form \u2192 Replit \u2192 Doc",
+      "actions": [
+        "Google Form \u2192 HTTP \u2192 Replit \u2192 Google Doc"
+      ],
+      "resources": [
+        "https://www.make.com/en/help/app/http"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 96
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 14,
+      "day_in_week": 6,
+      "title": "Python-as-a-step (Replit): Harden",
+      "actions": [
+        "Handle empty text, long text"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 97
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 14,
+      "day_in_week": 7,
+      "title": "Python-as-a-step (Replit): Weekly retro",
+      "actions": [
+        "Record learnings"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 98
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 15,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: PDI request",
+      "actions": [
+        "Create Personal Developer Instance"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": "CSA Journey",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 99
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 15,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Navigation & Tables",
+      "actions": [
+        "Complete Now Learning module"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 100
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 15,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Forms & Lists",
+      "actions": [
+        "Hands-on exercises"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 101
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 15,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: User Administration",
+      "actions": [
+        "Create roles/users"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 102
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 15,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Data Management",
+      "actions": [
+        "Import set & transform maps"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 103
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 15,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Business Rules & UI Policies",
+      "actions": [
+        "Build small rules"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 104
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 15,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Weekly retro",
+      "actions": [
+        "5 bullet notes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 105
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 16,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: PDI request",
+      "actions": [
+        "Create Personal Developer Instance"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": "CSA Journey",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 106
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 16,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Navigation & Tables",
+      "actions": [
+        "Complete Now Learning module"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 107
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 16,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Forms & Lists",
+      "actions": [
+        "Hands-on exercises"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 108
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 16,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: User Administration",
+      "actions": [
+        "Create roles/users"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 109
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 16,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Data Management",
+      "actions": [
+        "Import set & transform maps"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 110
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 16,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Business Rules & UI Policies",
+      "actions": [
+        "Build small rules"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 111
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 16,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Weekly retro",
+      "actions": [
+        "5 bullet notes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 112
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 17,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: PDI request",
+      "actions": [
+        "Create Personal Developer Instance"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": "CSA Journey",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 113
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 17,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Navigation & Tables",
+      "actions": [
+        "Complete Now Learning module"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 114
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 17,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Forms & Lists",
+      "actions": [
+        "Hands-on exercises"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 115
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 17,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: User Administration",
+      "actions": [
+        "Create roles/users"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 116
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 17,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Data Management",
+      "actions": [
+        "Import set & transform maps"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 117
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 17,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Business Rules & UI Policies",
+      "actions": [
+        "Build small rules"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 118
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 17,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Weekly retro",
+      "actions": [
+        "5 bullet notes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 119
+    },
+    {
+      "season": 2,
+      "month_in_season": 1,
+      "week": 18,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: PDI request",
+      "actions": [
+        "Create Personal Developer Instance"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": "CSA Journey",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 120
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 18,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Navigation & Tables",
+      "actions": [
+        "Complete Now Learning module"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 121
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 18,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Forms & Lists",
+      "actions": [
+        "Hands-on exercises"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 122
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 18,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: User Administration",
+      "actions": [
+        "Create roles/users"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 123
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 18,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Data Management",
+      "actions": [
+        "Import set & transform maps"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 124
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 18,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Business Rules & UI Policies",
+      "actions": [
+        "Build small rules"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 125
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 18,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Setup & Fundamentals: Weekly retro",
+      "actions": [
+        "5 bullet notes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 126
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 19,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Applications: App Engine Studio",
+      "actions": [
+        "Create scoped app"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": "Onboarding Engine",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 127
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 19,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Applications: Tables & Relationships",
+      "actions": [
+        "Design data model"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 128
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 19,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Applications: Flows",
+      "actions": [
+        "Flow Designer basics"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 129
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 19,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Applications: Integrations",
+      "actions": [
+        "REST integrations"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 130
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 19,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Applications: Service Catalog",
+      "actions": [
+        "Create a catalog item"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 131
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 19,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Applications: Reports & Dashboards",
+      "actions": [
+        "Create one report"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 132
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 19,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Applications: Weekly retro",
+      "actions": [
+        "CSA checklist update"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 133
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 20,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Applications: App Engine Studio",
+      "actions": [
+        "Create scoped app"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": "Onboarding Engine",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 134
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 20,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Applications: Tables & Relationships",
+      "actions": [
+        "Design data model"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 135
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 20,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Applications: Flows",
+      "actions": [
+        "Flow Designer basics"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 136
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 20,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Applications: Integrations",
+      "actions": [
+        "REST integrations"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 137
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 20,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Applications: Service Catalog",
+      "actions": [
+        "Create a catalog item"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 138
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 20,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Applications: Reports & Dashboards",
+      "actions": [
+        "Create one report"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 139
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 20,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Applications: Weekly retro",
+      "actions": [
+        "CSA checklist update"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 140
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 21,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Applications: App Engine Studio",
+      "actions": [
+        "Create scoped app"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": "Onboarding Engine",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 141
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 21,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Applications: Tables & Relationships",
+      "actions": [
+        "Design data model"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 142
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 21,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Applications: Flows",
+      "actions": [
+        "Flow Designer basics"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 143
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 21,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Applications: Integrations",
+      "actions": [
+        "REST integrations"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 144
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 21,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Applications: Service Catalog",
+      "actions": [
+        "Create a catalog item"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 145
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 21,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Applications: Reports & Dashboards",
+      "actions": [
+        "Create one report"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 146
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 21,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Applications: Weekly retro",
+      "actions": [
+        "CSA checklist update"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 147
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 22,
+      "day_in_week": 1,
+      "title": "ServiceNow CSA \u2014 Applications: App Engine Studio",
+      "actions": [
+        "Create scoped app"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": "Onboarding Engine",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 148
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 22,
+      "day_in_week": 2,
+      "title": "ServiceNow CSA \u2014 Applications: Tables & Relationships",
+      "actions": [
+        "Design data model"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 149
+    },
+    {
+      "season": 2,
+      "month_in_season": 2,
+      "week": 22,
+      "day_in_week": 3,
+      "title": "ServiceNow CSA \u2014 Applications: Flows",
+      "actions": [
+        "Flow Designer basics"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 150
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 22,
+      "day_in_week": 4,
+      "title": "ServiceNow CSA \u2014 Applications: Integrations",
+      "actions": [
+        "REST integrations"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 151
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 22,
+      "day_in_week": 5,
+      "title": "ServiceNow CSA \u2014 Applications: Service Catalog",
+      "actions": [
+        "Create a catalog item"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 152
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 22,
+      "day_in_week": 6,
+      "title": "ServiceNow CSA \u2014 Applications: Reports & Dashboards",
+      "actions": [
+        "Create one report"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 153
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 22,
+      "day_in_week": 7,
+      "title": "ServiceNow CSA \u2014 Applications: Weekly retro",
+      "actions": [
+        "CSA checklist update"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 154
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 23,
+      "day_in_week": 1,
+      "title": "Onboarding Engine + CSA Exam: Design spec",
+      "actions": [
+        "Form: new hire; tasks to IT/Facilities/HR"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Q2 Capstone: Onboarding",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 155
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 23,
+      "day_in_week": 2,
+      "title": "Onboarding Engine + CSA Exam: Build forms & tables",
+      "actions": [
+        "Implement schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 156
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 23,
+      "day_in_week": 3,
+      "title": "Onboarding Engine + CSA Exam: Flows + notifications",
+      "actions": [
+        "Auto-create tasks per dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 157
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 23,
+      "day_in_week": 4,
+      "title": "Onboarding Engine + CSA Exam: Edge cases & test",
+      "actions": [
+        "Missing manager, invalid dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 158
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 23,
+      "day_in_week": 5,
+      "title": "Onboarding Engine + CSA Exam: Docs + demo video",
+      "actions": [
+        "Record 2-min walkthrough"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 159
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 23,
+      "day_in_week": 6,
+      "title": "Onboarding Engine + CSA Exam: CSA Review",
+      "actions": [
+        "Revisit modules & practice"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 160
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 23,
+      "day_in_week": 7,
+      "title": "Onboarding Engine + CSA Exam: Exam week buffer",
+      "actions": [
+        "Schedule & take exam"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 161
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 24,
+      "day_in_week": 1,
+      "title": "Onboarding Engine + CSA Exam: Design spec",
+      "actions": [
+        "Form: new hire; tasks to IT/Facilities/HR"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Q2 Capstone: Onboarding",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 162
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 24,
+      "day_in_week": 2,
+      "title": "Onboarding Engine + CSA Exam: Build forms & tables",
+      "actions": [
+        "Implement schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 163
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 24,
+      "day_in_week": 3,
+      "title": "Onboarding Engine + CSA Exam: Flows + notifications",
+      "actions": [
+        "Auto-create tasks per dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 164
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 24,
+      "day_in_week": 4,
+      "title": "Onboarding Engine + CSA Exam: Edge cases & test",
+      "actions": [
+        "Missing manager, invalid dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 165
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 24,
+      "day_in_week": 5,
+      "title": "Onboarding Engine + CSA Exam: Docs + demo video",
+      "actions": [
+        "Record 2-min walkthrough"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 166
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 24,
+      "day_in_week": 6,
+      "title": "Onboarding Engine + CSA Exam: CSA Review",
+      "actions": [
+        "Revisit modules & practice"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 167
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 24,
+      "day_in_week": 7,
+      "title": "Onboarding Engine + CSA Exam: Exam week buffer",
+      "actions": [
+        "Schedule & take exam"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 168
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 25,
+      "day_in_week": 1,
+      "title": "Onboarding Engine + CSA Exam: Design spec",
+      "actions": [
+        "Form: new hire; tasks to IT/Facilities/HR"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Q2 Capstone: Onboarding",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 169
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 25,
+      "day_in_week": 2,
+      "title": "Onboarding Engine + CSA Exam: Build forms & tables",
+      "actions": [
+        "Implement schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 170
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 25,
+      "day_in_week": 3,
+      "title": "Onboarding Engine + CSA Exam: Flows + notifications",
+      "actions": [
+        "Auto-create tasks per dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 171
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 25,
+      "day_in_week": 4,
+      "title": "Onboarding Engine + CSA Exam: Edge cases & test",
+      "actions": [
+        "Missing manager, invalid dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 172
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 25,
+      "day_in_week": 5,
+      "title": "Onboarding Engine + CSA Exam: Docs + demo video",
+      "actions": [
+        "Record 2-min walkthrough"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 173
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 25,
+      "day_in_week": 6,
+      "title": "Onboarding Engine + CSA Exam: CSA Review",
+      "actions": [
+        "Revisit modules & practice"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 174
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 25,
+      "day_in_week": 7,
+      "title": "Onboarding Engine + CSA Exam: Exam week buffer",
+      "actions": [
+        "Schedule & take exam"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 175
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 26,
+      "day_in_week": 1,
+      "title": "Onboarding Engine + CSA Exam: Design spec",
+      "actions": [
+        "Form: new hire; tasks to IT/Facilities/HR"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Q2 Capstone: Onboarding",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 176
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 26,
+      "day_in_week": 2,
+      "title": "Onboarding Engine + CSA Exam: Build forms & tables",
+      "actions": [
+        "Implement schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 177
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 26,
+      "day_in_week": 3,
+      "title": "Onboarding Engine + CSA Exam: Flows + notifications",
+      "actions": [
+        "Auto-create tasks per dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 178
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 26,
+      "day_in_week": 4,
+      "title": "Onboarding Engine + CSA Exam: Edge cases & test",
+      "actions": [
+        "Missing manager, invalid dept"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 179
+    },
+    {
+      "season": 2,
+      "month_in_season": 3,
+      "week": 26,
+      "day_in_week": 5,
+      "title": "Onboarding Engine + CSA Exam: Docs + demo video",
+      "actions": [
+        "Record 2-min walkthrough"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 180
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 26,
+      "day_in_week": 6,
+      "title": "Onboarding Engine + CSA Exam: CSA Review",
+      "actions": [
+        "Revisit modules & practice"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 181
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 26,
+      "day_in_week": 7,
+      "title": "Onboarding Engine + CSA Exam: Exam week buffer",
+      "actions": [
+        "Schedule & take exam"
+      ],
+      "resources": [
+        "https://nowlearning.servicenow.com/"
+      ],
+      "certificate": "ServiceNow CSA",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 182
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 27,
+      "day_in_week": 1,
+      "title": "LangChain + LLM Basics: Course kickoff",
+      "actions": [
+        "Start DeepLearning.AI LangChain"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": "LLM Mini Bot",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 183
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 27,
+      "day_in_week": 2,
+      "title": "LangChain + LLM Basics: Prompt templates",
+      "actions": [
+        "Build prompt with vars"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 184
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 27,
+      "day_in_week": 3,
+      "title": "LangChain + LLM Basics: Chains",
+      "actions": [
+        "Simple chain over text"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 185
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 27,
+      "day_in_week": 4,
+      "title": "LangChain + LLM Basics: Tools/agents (light)",
+      "actions": [
+        "Call a simple tool"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 186
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 27,
+      "day_in_week": 5,
+      "title": "LangChain + LLM Basics: Mini project",
+      "actions": [
+        "Query docs & summarize"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 187
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 27,
+      "day_in_week": 6,
+      "title": "LangChain + LLM Basics: Polish",
+      "actions": [
+        "Add CLI or small UI"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 188
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 27,
+      "day_in_week": 7,
+      "title": "LangChain + LLM Basics: Retro",
+      "actions": [
+        "What worked? limits?"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 189
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 28,
+      "day_in_week": 1,
+      "title": "LangChain + LLM Basics: Course kickoff",
+      "actions": [
+        "Start DeepLearning.AI LangChain"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": "LLM Mini Bot",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 190
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 28,
+      "day_in_week": 2,
+      "title": "LangChain + LLM Basics: Prompt templates",
+      "actions": [
+        "Build prompt with vars"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 191
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 28,
+      "day_in_week": 3,
+      "title": "LangChain + LLM Basics: Chains",
+      "actions": [
+        "Simple chain over text"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 192
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 28,
+      "day_in_week": 4,
+      "title": "LangChain + LLM Basics: Tools/agents (light)",
+      "actions": [
+        "Call a simple tool"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 193
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 28,
+      "day_in_week": 5,
+      "title": "LangChain + LLM Basics: Mini project",
+      "actions": [
+        "Query docs & summarize"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 194
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 28,
+      "day_in_week": 6,
+      "title": "LangChain + LLM Basics: Polish",
+      "actions": [
+        "Add CLI or small UI"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 195
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 28,
+      "day_in_week": 7,
+      "title": "LangChain + LLM Basics: Retro",
+      "actions": [
+        "What worked? limits?"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 196
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 29,
+      "day_in_week": 1,
+      "title": "LangChain + LLM Basics: Course kickoff",
+      "actions": [
+        "Start DeepLearning.AI LangChain"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": "LLM Mini Bot",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 197
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 29,
+      "day_in_week": 2,
+      "title": "LangChain + LLM Basics: Prompt templates",
+      "actions": [
+        "Build prompt with vars"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 198
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 29,
+      "day_in_week": 3,
+      "title": "LangChain + LLM Basics: Chains",
+      "actions": [
+        "Simple chain over text"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 199
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 29,
+      "day_in_week": 4,
+      "title": "LangChain + LLM Basics: Tools/agents (light)",
+      "actions": [
+        "Call a simple tool"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 200
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 29,
+      "day_in_week": 5,
+      "title": "LangChain + LLM Basics: Mini project",
+      "actions": [
+        "Query docs & summarize"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 201
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 29,
+      "day_in_week": 6,
+      "title": "LangChain + LLM Basics: Polish",
+      "actions": [
+        "Add CLI or small UI"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 202
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 29,
+      "day_in_week": 7,
+      "title": "LangChain + LLM Basics: Retro",
+      "actions": [
+        "What worked? limits?"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 203
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 30,
+      "day_in_week": 1,
+      "title": "LangChain + LLM Basics: Course kickoff",
+      "actions": [
+        "Start DeepLearning.AI LangChain"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": "LLM Mini Bot",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 204
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 30,
+      "day_in_week": 2,
+      "title": "LangChain + LLM Basics: Prompt templates",
+      "actions": [
+        "Build prompt with vars"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 205
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 30,
+      "day_in_week": 3,
+      "title": "LangChain + LLM Basics: Chains",
+      "actions": [
+        "Simple chain over text"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 206
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 30,
+      "day_in_week": 4,
+      "title": "LangChain + LLM Basics: Tools/agents (light)",
+      "actions": [
+        "Call a simple tool"
+      ],
+      "resources": [
+        "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 207
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 30,
+      "day_in_week": 5,
+      "title": "LangChain + LLM Basics: Mini project",
+      "actions": [
+        "Query docs & summarize"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 208
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 30,
+      "day_in_week": 6,
+      "title": "LangChain + LLM Basics: Polish",
+      "actions": [
+        "Add CLI or small UI"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 209
+    },
+    {
+      "season": 3,
+      "month_in_season": 1,
+      "week": 30,
+      "day_in_week": 7,
+      "title": "LangChain + LLM Basics: Retro",
+      "actions": [
+        "What worked? limits?"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 210
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 31,
+      "day_in_week": 1,
+      "title": "Responsible AI + Human-in-the-loop: MS Responsible AI path",
+      "actions": [
+        "Finish 1 module"
+      ],
+      "resources": [
+        "https://learn.microsoft.com/en-us/training/paths/responsible-ai/"
+      ],
+      "certificate": "MS Responsible AI (badge)",
+      "project": "Human Approval Flow",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 211
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 31,
+      "day_in_week": 2,
+      "title": "Responsible AI + Human-in-the-loop: Criteria & thresholds",
+      "actions": [
+        "Define when human intervenes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 212
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 31,
+      "day_in_week": 3,
+      "title": "Responsible AI + Human-in-the-loop: Build approval step",
+      "actions": [
+        "Add approval step to flow"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 213
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 31,
+      "day_in_week": 4,
+      "title": "Responsible AI + Human-in-the-loop: Logging for audits",
+      "actions": [
+        "Store decisions"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 214
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 31,
+      "day_in_week": 5,
+      "title": "Responsible AI + Human-in-the-loop: Edge cases",
+      "actions": [
+        "Ambiguous outputs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 215
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 31,
+      "day_in_week": 6,
+      "title": "Responsible AI + Human-in-the-loop: Report",
+      "actions": [
+        "1-page ethics note"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 216
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 31,
+      "day_in_week": 7,
+      "title": "Responsible AI + Human-in-the-loop: Retro",
+      "actions": [
+        "Reflections"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 217
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 32,
+      "day_in_week": 1,
+      "title": "Responsible AI + Human-in-the-loop: MS Responsible AI path",
+      "actions": [
+        "Finish 1 module"
+      ],
+      "resources": [
+        "https://learn.microsoft.com/en-us/training/paths/responsible-ai/"
+      ],
+      "certificate": "MS Responsible AI (badge)",
+      "project": "Human Approval Flow",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 218
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 32,
+      "day_in_week": 2,
+      "title": "Responsible AI + Human-in-the-loop: Criteria & thresholds",
+      "actions": [
+        "Define when human intervenes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 219
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 32,
+      "day_in_week": 3,
+      "title": "Responsible AI + Human-in-the-loop: Build approval step",
+      "actions": [
+        "Add approval step to flow"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 220
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 32,
+      "day_in_week": 4,
+      "title": "Responsible AI + Human-in-the-loop: Logging for audits",
+      "actions": [
+        "Store decisions"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 221
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 32,
+      "day_in_week": 5,
+      "title": "Responsible AI + Human-in-the-loop: Edge cases",
+      "actions": [
+        "Ambiguous outputs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 222
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 32,
+      "day_in_week": 6,
+      "title": "Responsible AI + Human-in-the-loop: Report",
+      "actions": [
+        "1-page ethics note"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 223
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 32,
+      "day_in_week": 7,
+      "title": "Responsible AI + Human-in-the-loop: Retro",
+      "actions": [
+        "Reflections"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 224
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 33,
+      "day_in_week": 1,
+      "title": "Responsible AI + Human-in-the-loop: MS Responsible AI path",
+      "actions": [
+        "Finish 1 module"
+      ],
+      "resources": [
+        "https://learn.microsoft.com/en-us/training/paths/responsible-ai/"
+      ],
+      "certificate": "MS Responsible AI (badge)",
+      "project": "Human Approval Flow",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 225
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 33,
+      "day_in_week": 2,
+      "title": "Responsible AI + Human-in-the-loop: Criteria & thresholds",
+      "actions": [
+        "Define when human intervenes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 226
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 33,
+      "day_in_week": 3,
+      "title": "Responsible AI + Human-in-the-loop: Build approval step",
+      "actions": [
+        "Add approval step to flow"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 227
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 33,
+      "day_in_week": 4,
+      "title": "Responsible AI + Human-in-the-loop: Logging for audits",
+      "actions": [
+        "Store decisions"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 228
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 33,
+      "day_in_week": 5,
+      "title": "Responsible AI + Human-in-the-loop: Edge cases",
+      "actions": [
+        "Ambiguous outputs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 229
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 33,
+      "day_in_week": 6,
+      "title": "Responsible AI + Human-in-the-loop: Report",
+      "actions": [
+        "1-page ethics note"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 230
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 33,
+      "day_in_week": 7,
+      "title": "Responsible AI + Human-in-the-loop: Retro",
+      "actions": [
+        "Reflections"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 231
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 34,
+      "day_in_week": 1,
+      "title": "Responsible AI + Human-in-the-loop: MS Responsible AI path",
+      "actions": [
+        "Finish 1 module"
+      ],
+      "resources": [
+        "https://learn.microsoft.com/en-us/training/paths/responsible-ai/"
+      ],
+      "certificate": "MS Responsible AI (badge)",
+      "project": "Human Approval Flow",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 232
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 34,
+      "day_in_week": 2,
+      "title": "Responsible AI + Human-in-the-loop: Criteria & thresholds",
+      "actions": [
+        "Define when human intervenes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 233
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 34,
+      "day_in_week": 3,
+      "title": "Responsible AI + Human-in-the-loop: Build approval step",
+      "actions": [
+        "Add approval step to flow"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 234
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 34,
+      "day_in_week": 4,
+      "title": "Responsible AI + Human-in-the-loop: Logging for audits",
+      "actions": [
+        "Store decisions"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 235
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 34,
+      "day_in_week": 5,
+      "title": "Responsible AI + Human-in-the-loop: Edge cases",
+      "actions": [
+        "Ambiguous outputs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 236
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 34,
+      "day_in_week": 6,
+      "title": "Responsible AI + Human-in-the-loop: Report",
+      "actions": [
+        "1-page ethics note"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 237
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 34,
+      "day_in_week": 7,
+      "title": "Responsible AI + Human-in-the-loop: Retro",
+      "actions": [
+        "Reflections"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 238
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 35,
+      "day_in_week": 1,
+      "title": "Dashboards & Metrics: Pick tool (Looker/Streamlit)",
+      "actions": [
+        "Hello dashboard"
+      ],
+      "resources": [
+        "https://lookerstudio.google.com/"
+      ],
+      "certificate": null,
+      "project": "Decision Dashboard",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 239
+    },
+    {
+      "season": 3,
+      "month_in_season": 2,
+      "week": 35,
+      "day_in_week": 2,
+      "title": "Dashboards & Metrics: Data model",
+      "actions": [
+        "Define tables/fields"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 240
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 35,
+      "day_in_week": 3,
+      "title": "Dashboards & Metrics: Charts",
+      "actions": [
+        "Add throughput, errors, latency"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 241
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 35,
+      "day_in_week": 4,
+      "title": "Dashboards & Metrics: Explainability notes",
+      "actions": [
+        "Add rationale text areas"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 242
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 35,
+      "day_in_week": 5,
+      "title": "Dashboards & Metrics: Alerts",
+      "actions": [
+        "Add threshold alerts"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 243
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 35,
+      "day_in_week": 6,
+      "title": "Dashboards & Metrics: Polish",
+      "actions": [
+        "Branding & docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 244
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 35,
+      "day_in_week": 7,
+      "title": "Dashboards & Metrics: Retro",
+      "actions": [
+        "Lessons"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 245
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 36,
+      "day_in_week": 1,
+      "title": "Dashboards & Metrics: Pick tool (Looker/Streamlit)",
+      "actions": [
+        "Hello dashboard"
+      ],
+      "resources": [
+        "https://lookerstudio.google.com/"
+      ],
+      "certificate": null,
+      "project": "Decision Dashboard",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 246
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 36,
+      "day_in_week": 2,
+      "title": "Dashboards & Metrics: Data model",
+      "actions": [
+        "Define tables/fields"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 247
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 36,
+      "day_in_week": 3,
+      "title": "Dashboards & Metrics: Charts",
+      "actions": [
+        "Add throughput, errors, latency"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 248
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 36,
+      "day_in_week": 4,
+      "title": "Dashboards & Metrics: Explainability notes",
+      "actions": [
+        "Add rationale text areas"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 249
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 36,
+      "day_in_week": 5,
+      "title": "Dashboards & Metrics: Alerts",
+      "actions": [
+        "Add threshold alerts"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 250
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 36,
+      "day_in_week": 6,
+      "title": "Dashboards & Metrics: Polish",
+      "actions": [
+        "Branding & docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 251
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 36,
+      "day_in_week": 7,
+      "title": "Dashboards & Metrics: Retro",
+      "actions": [
+        "Lessons"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 252
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 37,
+      "day_in_week": 1,
+      "title": "Dashboards & Metrics: Pick tool (Looker/Streamlit)",
+      "actions": [
+        "Hello dashboard"
+      ],
+      "resources": [
+        "https://lookerstudio.google.com/"
+      ],
+      "certificate": null,
+      "project": "Decision Dashboard",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 253
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 37,
+      "day_in_week": 2,
+      "title": "Dashboards & Metrics: Data model",
+      "actions": [
+        "Define tables/fields"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 254
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 37,
+      "day_in_week": 3,
+      "title": "Dashboards & Metrics: Charts",
+      "actions": [
+        "Add throughput, errors, latency"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 255
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 37,
+      "day_in_week": 4,
+      "title": "Dashboards & Metrics: Explainability notes",
+      "actions": [
+        "Add rationale text areas"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 256
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 37,
+      "day_in_week": 5,
+      "title": "Dashboards & Metrics: Alerts",
+      "actions": [
+        "Add threshold alerts"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 257
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 37,
+      "day_in_week": 6,
+      "title": "Dashboards & Metrics: Polish",
+      "actions": [
+        "Branding & docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 258
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 37,
+      "day_in_week": 7,
+      "title": "Dashboards & Metrics: Retro",
+      "actions": [
+        "Lessons"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 259
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 38,
+      "day_in_week": 1,
+      "title": "Dashboards & Metrics: Pick tool (Looker/Streamlit)",
+      "actions": [
+        "Hello dashboard"
+      ],
+      "resources": [
+        "https://lookerstudio.google.com/"
+      ],
+      "certificate": null,
+      "project": "Decision Dashboard",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 260
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 38,
+      "day_in_week": 2,
+      "title": "Dashboards & Metrics: Data model",
+      "actions": [
+        "Define tables/fields"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 261
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 38,
+      "day_in_week": 3,
+      "title": "Dashboards & Metrics: Charts",
+      "actions": [
+        "Add throughput, errors, latency"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 262
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 38,
+      "day_in_week": 4,
+      "title": "Dashboards & Metrics: Explainability notes",
+      "actions": [
+        "Add rationale text areas"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 263
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 38,
+      "day_in_week": 5,
+      "title": "Dashboards & Metrics: Alerts",
+      "actions": [
+        "Add threshold alerts"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 264
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 38,
+      "day_in_week": 6,
+      "title": "Dashboards & Metrics: Polish",
+      "actions": [
+        "Branding & docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 265
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 38,
+      "day_in_week": 7,
+      "title": "Dashboards & Metrics: Retro",
+      "actions": [
+        "Lessons"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 266
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 39,
+      "day_in_week": 1,
+      "title": "System Design + Data Layer: Architecture sketch",
+      "actions": [
+        "Draw.io or Miro diagram"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Capstone System",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 267
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 39,
+      "day_in_week": 2,
+      "title": "System Design + Data Layer: Data layer",
+      "actions": [
+        "SQLite or Airtable schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 268
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 39,
+      "day_in_week": 3,
+      "title": "System Design + Data Layer: API endpoints",
+      "actions": [
+        "Define routes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 269
+    },
+    {
+      "season": 3,
+      "month_in_season": 3,
+      "week": 39,
+      "day_in_week": 4,
+      "title": "System Design + Data Layer: Auth & roles",
+      "actions": [
+        "Basic auth"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 270
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 39,
+      "day_in_week": 5,
+      "title": "System Design + Data Layer: Seed test data",
+      "actions": [
+        "Create test harness"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 271
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 39,
+      "day_in_week": 6,
+      "title": "System Design + Data Layer: Polish plan",
+      "actions": [
+        "Finalize scope"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 272
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 39,
+      "day_in_week": 7,
+      "title": "System Design + Data Layer: Retro",
+      "actions": [
+        "Risks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 273
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 40,
+      "day_in_week": 1,
+      "title": "System Design + Data Layer: Architecture sketch",
+      "actions": [
+        "Draw.io or Miro diagram"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Capstone System",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 274
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 40,
+      "day_in_week": 2,
+      "title": "System Design + Data Layer: Data layer",
+      "actions": [
+        "SQLite or Airtable schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 275
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 40,
+      "day_in_week": 3,
+      "title": "System Design + Data Layer: API endpoints",
+      "actions": [
+        "Define routes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 276
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 40,
+      "day_in_week": 4,
+      "title": "System Design + Data Layer: Auth & roles",
+      "actions": [
+        "Basic auth"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 277
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 40,
+      "day_in_week": 5,
+      "title": "System Design + Data Layer: Seed test data",
+      "actions": [
+        "Create test harness"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 278
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 40,
+      "day_in_week": 6,
+      "title": "System Design + Data Layer: Polish plan",
+      "actions": [
+        "Finalize scope"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 279
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 40,
+      "day_in_week": 7,
+      "title": "System Design + Data Layer: Retro",
+      "actions": [
+        "Risks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 280
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 41,
+      "day_in_week": 1,
+      "title": "System Design + Data Layer: Architecture sketch",
+      "actions": [
+        "Draw.io or Miro diagram"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Capstone System",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 281
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 41,
+      "day_in_week": 2,
+      "title": "System Design + Data Layer: Data layer",
+      "actions": [
+        "SQLite or Airtable schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 282
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 41,
+      "day_in_week": 3,
+      "title": "System Design + Data Layer: API endpoints",
+      "actions": [
+        "Define routes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 283
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 41,
+      "day_in_week": 4,
+      "title": "System Design + Data Layer: Auth & roles",
+      "actions": [
+        "Basic auth"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 284
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 41,
+      "day_in_week": 5,
+      "title": "System Design + Data Layer: Seed test data",
+      "actions": [
+        "Create test harness"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 285
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 41,
+      "day_in_week": 6,
+      "title": "System Design + Data Layer: Polish plan",
+      "actions": [
+        "Finalize scope"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 286
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 41,
+      "day_in_week": 7,
+      "title": "System Design + Data Layer: Retro",
+      "actions": [
+        "Risks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 287
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 42,
+      "day_in_week": 1,
+      "title": "System Design + Data Layer: Architecture sketch",
+      "actions": [
+        "Draw.io or Miro diagram"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": "Capstone System",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 288
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 42,
+      "day_in_week": 2,
+      "title": "System Design + Data Layer: Data layer",
+      "actions": [
+        "SQLite or Airtable schema"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 289
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 42,
+      "day_in_week": 3,
+      "title": "System Design + Data Layer: API endpoints",
+      "actions": [
+        "Define routes"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 290
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 42,
+      "day_in_week": 4,
+      "title": "System Design + Data Layer: Auth & roles",
+      "actions": [
+        "Basic auth"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 291
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 42,
+      "day_in_week": 5,
+      "title": "System Design + Data Layer: Seed test data",
+      "actions": [
+        "Create test harness"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 292
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 42,
+      "day_in_week": 6,
+      "title": "System Design + Data Layer: Polish plan",
+      "actions": [
+        "Finalize scope"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 293
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 42,
+      "day_in_week": 7,
+      "title": "System Design + Data Layer: Retro",
+      "actions": [
+        "Risks"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 294
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 43,
+      "day_in_week": 1,
+      "title": "Capstone Build: Ingest",
+      "actions": [
+        "Upload docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 295
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 43,
+      "day_in_week": 2,
+      "title": "Capstone Build: AI summarize",
+      "actions": [
+        "LLM summarize & tag"
+      ],
+      "resources": [
+        "https://platform.openai.com/docs/introduction"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 296
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 43,
+      "day_in_week": 3,
+      "title": "Capstone Build: Human review",
+      "actions": [
+        "Approve/Reject path"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 297
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 43,
+      "day_in_week": 4,
+      "title": "Capstone Build: Logging & audit",
+      "actions": [
+        "Store every step"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 298
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 43,
+      "day_in_week": 5,
+      "title": "Capstone Build: Dashboard",
+      "actions": [
+        "KPIs & filters"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 299
+    },
+    {
+      "season": 4,
+      "month_in_season": 1,
+      "week": 43,
+      "day_in_week": 6,
+      "title": "Capstone Build: End-to-end test",
+      "actions": [
+        "Edge cases"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 300
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 43,
+      "day_in_week": 7,
+      "title": "Capstone Build: Retro",
+      "actions": [
+        "Demo script"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 301
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 44,
+      "day_in_week": 1,
+      "title": "Capstone Build: Ingest",
+      "actions": [
+        "Upload docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 302
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 44,
+      "day_in_week": 2,
+      "title": "Capstone Build: AI summarize",
+      "actions": [
+        "LLM summarize & tag"
+      ],
+      "resources": [
+        "https://platform.openai.com/docs/introduction"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 303
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 44,
+      "day_in_week": 3,
+      "title": "Capstone Build: Human review",
+      "actions": [
+        "Approve/Reject path"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 304
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 44,
+      "day_in_week": 4,
+      "title": "Capstone Build: Logging & audit",
+      "actions": [
+        "Store every step"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 305
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 44,
+      "day_in_week": 5,
+      "title": "Capstone Build: Dashboard",
+      "actions": [
+        "KPIs & filters"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 306
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 44,
+      "day_in_week": 6,
+      "title": "Capstone Build: End-to-end test",
+      "actions": [
+        "Edge cases"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 307
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 44,
+      "day_in_week": 7,
+      "title": "Capstone Build: Retro",
+      "actions": [
+        "Demo script"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 308
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 45,
+      "day_in_week": 1,
+      "title": "Capstone Build: Ingest",
+      "actions": [
+        "Upload docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 309
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 45,
+      "day_in_week": 2,
+      "title": "Capstone Build: AI summarize",
+      "actions": [
+        "LLM summarize & tag"
+      ],
+      "resources": [
+        "https://platform.openai.com/docs/introduction"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 310
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 45,
+      "day_in_week": 3,
+      "title": "Capstone Build: Human review",
+      "actions": [
+        "Approve/Reject path"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 311
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 45,
+      "day_in_week": 4,
+      "title": "Capstone Build: Logging & audit",
+      "actions": [
+        "Store every step"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 312
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 45,
+      "day_in_week": 5,
+      "title": "Capstone Build: Dashboard",
+      "actions": [
+        "KPIs & filters"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 313
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 45,
+      "day_in_week": 6,
+      "title": "Capstone Build: End-to-end test",
+      "actions": [
+        "Edge cases"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 314
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 45,
+      "day_in_week": 7,
+      "title": "Capstone Build: Retro",
+      "actions": [
+        "Demo script"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 315
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 46,
+      "day_in_week": 1,
+      "title": "Capstone Build: Ingest",
+      "actions": [
+        "Upload docs"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 316
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 46,
+      "day_in_week": 2,
+      "title": "Capstone Build: AI summarize",
+      "actions": [
+        "LLM summarize & tag"
+      ],
+      "resources": [
+        "https://platform.openai.com/docs/introduction"
+      ],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 317
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 46,
+      "day_in_week": 3,
+      "title": "Capstone Build: Human review",
+      "actions": [
+        "Approve/Reject path"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 318
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 46,
+      "day_in_week": 4,
+      "title": "Capstone Build: Logging & audit",
+      "actions": [
+        "Store every step"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 319
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 46,
+      "day_in_week": 5,
+      "title": "Capstone Build: Dashboard",
+      "actions": [
+        "KPIs & filters"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 320
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 46,
+      "day_in_week": 6,
+      "title": "Capstone Build: End-to-end test",
+      "actions": [
+        "Edge cases"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 321
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 46,
+      "day_in_week": 7,
+      "title": "Capstone Build: Retro",
+      "actions": [
+        "Demo script"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 322
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 47,
+      "day_in_week": 1,
+      "title": "Portfolio + Certs: Portfolio site",
+      "actions": [
+        "GitHub Pages/Notion"
+      ],
+      "resources": [
+        "https://pages.github.com/"
+      ],
+      "certificate": null,
+      "project": "Portfolio",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 323
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 47,
+      "day_in_week": 2,
+      "title": "Portfolio + Certs: Write case studies",
+      "actions": [
+        "3 projects"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 324
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 47,
+      "day_in_week": 3,
+      "title": "Portfolio + Certs: Record demo videos",
+      "actions": [
+        "2-3 mins each"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 325
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 47,
+      "day_in_week": 4,
+      "title": "Portfolio + Certs: UiPath Foundation",
+      "actions": [
+        "Finish free course"
+      ],
+      "resources": [
+        "https://academy.uipath.com/"
+      ],
+      "certificate": "UiPath Foundation",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 326
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 47,
+      "day_in_week": 5,
+      "title": "Portfolio + Certs: Optional GCP badge",
+      "actions": [
+        "Google Automation Engineer overview"
+      ],
+      "resources": [],
+      "certificate": "Google Automation Engineer (optional)",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 327
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 47,
+      "day_in_week": 6,
+      "title": "Portfolio + Certs: Applications/Outreach",
+      "actions": [
+        "Apply to 5 roles"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 328
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 47,
+      "day_in_week": 7,
+      "title": "Portfolio + Certs: Graduation",
+      "actions": [
+        "Final reflection & share"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 329
+    },
+    {
+      "season": 4,
+      "month_in_season": 2,
+      "week": 48,
+      "day_in_week": 1,
+      "title": "Portfolio + Certs: Portfolio site",
+      "actions": [
+        "GitHub Pages/Notion"
+      ],
+      "resources": [
+        "https://pages.github.com/"
+      ],
+      "certificate": null,
+      "project": "Portfolio",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 330
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 48,
+      "day_in_week": 2,
+      "title": "Portfolio + Certs: Write case studies",
+      "actions": [
+        "3 projects"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 331
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 48,
+      "day_in_week": 3,
+      "title": "Portfolio + Certs: Record demo videos",
+      "actions": [
+        "2-3 mins each"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 332
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 48,
+      "day_in_week": 4,
+      "title": "Portfolio + Certs: UiPath Foundation",
+      "actions": [
+        "Finish free course"
+      ],
+      "resources": [
+        "https://academy.uipath.com/"
+      ],
+      "certificate": "UiPath Foundation",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 333
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 48,
+      "day_in_week": 5,
+      "title": "Portfolio + Certs: Optional GCP badge",
+      "actions": [
+        "Google Automation Engineer overview"
+      ],
+      "resources": [],
+      "certificate": "Google Automation Engineer (optional)",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 334
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 48,
+      "day_in_week": 6,
+      "title": "Portfolio + Certs: Applications/Outreach",
+      "actions": [
+        "Apply to 5 roles"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 335
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 48,
+      "day_in_week": 7,
+      "title": "Portfolio + Certs: Graduation",
+      "actions": [
+        "Final reflection & share"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 336
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 49,
+      "day_in_week": 1,
+      "title": "Portfolio + Certs: Portfolio site",
+      "actions": [
+        "GitHub Pages/Notion"
+      ],
+      "resources": [
+        "https://pages.github.com/"
+      ],
+      "certificate": null,
+      "project": "Portfolio",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 337
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 49,
+      "day_in_week": 2,
+      "title": "Portfolio + Certs: Write case studies",
+      "actions": [
+        "3 projects"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 338
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 49,
+      "day_in_week": 3,
+      "title": "Portfolio + Certs: Record demo videos",
+      "actions": [
+        "2-3 mins each"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 339
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 49,
+      "day_in_week": 4,
+      "title": "Portfolio + Certs: UiPath Foundation",
+      "actions": [
+        "Finish free course"
+      ],
+      "resources": [
+        "https://academy.uipath.com/"
+      ],
+      "certificate": "UiPath Foundation",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 340
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 49,
+      "day_in_week": 5,
+      "title": "Portfolio + Certs: Optional GCP badge",
+      "actions": [
+        "Google Automation Engineer overview"
+      ],
+      "resources": [],
+      "certificate": "Google Automation Engineer (optional)",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 341
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 49,
+      "day_in_week": 6,
+      "title": "Portfolio + Certs: Applications/Outreach",
+      "actions": [
+        "Apply to 5 roles"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 342
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 49,
+      "day_in_week": 7,
+      "title": "Portfolio + Certs: Graduation",
+      "actions": [
+        "Final reflection & share"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 343
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 50,
+      "day_in_week": 1,
+      "title": "Portfolio + Certs: Portfolio site",
+      "actions": [
+        "GitHub Pages/Notion"
+      ],
+      "resources": [
+        "https://pages.github.com/"
+      ],
+      "certificate": null,
+      "project": "Portfolio",
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 344
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 50,
+      "day_in_week": 2,
+      "title": "Portfolio + Certs: Write case studies",
+      "actions": [
+        "3 projects"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 345
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 50,
+      "day_in_week": 3,
+      "title": "Portfolio + Certs: Record demo videos",
+      "actions": [
+        "2-3 mins each"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 346
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 50,
+      "day_in_week": 4,
+      "title": "Portfolio + Certs: UiPath Foundation",
+      "actions": [
+        "Finish free course"
+      ],
+      "resources": [
+        "https://academy.uipath.com/"
+      ],
+      "certificate": "UiPath Foundation",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 347
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 50,
+      "day_in_week": 5,
+      "title": "Portfolio + Certs: Optional GCP badge",
+      "actions": [
+        "Google Automation Engineer overview"
+      ],
+      "resources": [],
+      "certificate": "Google Automation Engineer (optional)",
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 348
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 50,
+      "day_in_week": 6,
+      "title": "Portfolio + Certs: Applications/Outreach",
+      "actions": [
+        "Apply to 5 roles"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 349
+    },
+    {
+      "season": 4,
+      "month_in_season": 3,
+      "week": 50,
+      "day_in_week": 7,
+      "title": "Portfolio + Certs: Graduation",
+      "actions": [
+        "Final reflection & share"
+      ],
+      "resources": [],
+      "certificate": null,
+      "project": null,
+      "warmup": "5-min Warm-up Win: Do one tiny step you can finish fast (e.g., rename a file, create a folder, or send a test request).",
+      "xp": 10,
+      "day_number": 350
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-3">
+  <h3>Your Badges</h3>
+  {% if badges %}
+    {% for b in badges %}<span class="badge bg-success me-1 mb-1">{{ b }}</span>{% endfor %}
+  {% else %}
+    <p>No badges yet — complete days to earn them.</p>
+  {% endif %}
+</div>
+{% endblock %}

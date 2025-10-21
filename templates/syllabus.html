@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>Full Syllabus</h3>
+<table class="table table-dark table-striped align-middle">
+  <thead><tr><th>Day</th><th>Title</th><th>Season</th><th>Week</th><th>Tags</th><th></th></tr></thead>
+  <tbody>
+  {% for d in days %}
+    {% set p = progress.get(d.day_number) %}
+    <tr>
+      <td>{{ d.day_number }}</td>
+      <td>{{ d.title }}</td>
+      <td>{{ d.season }} / M{{ d.month_in_season }}</td>
+      <td>{{ d.week }}</td>
+      <td>
+        {% if d.certificate %}<span class="badge bg-info">{{ d.certificate }}</span>{% endif %}
+        {% if d.project %}<span class="badge bg-warning text-dark">{{ d.project }}</span>{% endif %}
+      </td>
+      <td>
+        <a class="btn btn-sm {% if p and p.done %}btn-success{% else %}btn-primary{% endif %}" href="{{ url_for('day', day_number=d.day_number) }}">
+          {% if p and p.done %}Completed{% else %}Open{% endif %}
+        </a>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-3">
+  <h3>Day {{ day_number }} — {{ d.title }}</h3>
+  <p class="text-secondary">Season {{ d.season }} • Month {{ d.month_in_season }} • Week {{ d.week }}</p>
+  <h5>Actions</h5>
+  <ul>
+    {% for a in d.actions %}<li>{{ a }}</li>{% endfor %}
+  </ul>
+  {% if d.resources %}
+  <h5>Resources</h5>
+  <ul>{% for r in d.resources %}<li><a href="{{ r }}" target="_blank">{{ r }}</a></li>{% endfor %}</ul>
+  {% endif %}
+  {% if d.certificate %}<p><span class="badge bg-info">Certificate Track: {{ d.certificate }}</span></p>{% endif %}
+  {% if d.project %}<p><span class="badge bg-warning text-dark">Project: {{ d.project }}</span></p>{% endif %}
+
+  <form method="post" class="mt-3">
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" name="warmup" id="warmup" {% if progress and progress.warmup_done %}checked{% endif %}>
+      <label class="form-check-label" for="warmup">Warm-up Win done (5-min quick task)</label>
+    </div>
+    <div class="mb-3 mt-3">
+      <label class="form-label">Notes & Reflection</label>
+      <textarea name="notes" class="form-control" rows="4" placeholder="What did you build? What broke? What did you learn?">{% if progress %}{{ progress.notes }}{% endif %}</textarea>
+    </div>
+    <button class="btn btn-secondary me-2" name="action" value="save">Save Notes</button>
+    <button class="btn btn-success" name="action" value="toggle_done">
+      {% if progress and progress.done %}Mark Incomplete{% else %}Mark Complete{% endif %}
+    </button>
+  </form>
+
+  <div class="d-flex justify-content-between mt-3">
+    <a href="{{ url_for('day', day_number=prev_day) }}" class="btn btn-outline-light">← Prev</a>
+    <a href="{{ url_for('day', day_number=next_day) }}" class="btn btn-outline-light">Next →</a>
+  </div>
+</div>
+{% endblock %}
